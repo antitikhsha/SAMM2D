@@ -168,7 +168,7 @@ Key hyperparameters (see `configs/default_config.json` for all parameters):
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{das2026samm2d,
+@inproceedings{titikhsha,tak,samm2d,
   title={SAMM2D: Scale-Aware Multi-Modal 2D Transformer for Intracranial Aneurysm Detection},
   author={Titiksha, Antara, Tak, Divyanshu},
   
