@@ -1,7 +1,6 @@
 """
 SAMM2D: Scale-Aware Multi-Modal 2D Transformer for Intracranial Aneurysm Detection
-Author: Antara Das
-Institution: Carnegie Mellon University
+
 """
 
 import torch
