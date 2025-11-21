@@ -4,13 +4,13 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official PyTorch implementation of **SAMM2D** from our CVPR 2026 paper.
+Official PyTorch implementation of **SAMM2D**
 
 > **SAMM2D: Scale-Aware Multi-Modal 2D Transformer for Intracranial Aneurysm Detection**  
-> Antara Das  
-> Carnegie Mellon University
+> Antara Titikhsha (CMU), Divyanshu Tak (BWH, Harvard Medical School)  
 
-## 🎯 Overview
+
+##  Overview
 
 SAMM2D is a novel transformer-based architecture for detecting intracranial aneurysms in medical imaging. The model achieves **state-of-the-art performance** (AUC 0.78) while maintaining computational efficiency with only **18.8M parameters**.
 
@@ -21,7 +21,7 @@ SAMM2D is a novel transformer-based architecture for detecting intracranial aneu
 - **Efficient Architecture**: 18.8M parameters, ~50ms inference time per case
 - **Clinical Deployment Ready**: Designed for seamless PACS integration
 
-## 📊 Results
+##  Results
 
 | Method | AUC-ROC | Parameters | Inference Time |
 |--------|---------|------------|----------------|
@@ -32,7 +32,7 @@ SAMM2D is a novel transformer-based architecture for detecting intracranial aneu
 | nnU-Net | 0.750 | 31.2M | - |
 | **SAMM2D (Ours)** | **0.780** | **18.8M** | **~50ms** |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -101,7 +101,7 @@ python scripts/inference.py \
     --output results/predictions/
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 samm2d/
@@ -124,7 +124,7 @@ samm2d/
 └── README.md
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 SAMM2D consists of several key components:
 
@@ -135,7 +135,7 @@ SAMM2D consists of several key components:
 5. **Cross-Scale Attention**: Multi-scale feature fusion mechanism
 6. **Fusion Network**: Combines all features for final classification
 
-## 🔬 Ablation Studies
+##  Ablation Studies
 
 | Configuration | AUC-ROC | Δ vs Baseline |
 |--------------|---------|---------------|
@@ -147,7 +147,7 @@ SAMM2D consists of several key components:
 | SAMM2D (No Fusion) | 0.760 | +11.8% |
 | **SAMM2D (Full)** | **0.780** | **+14.7%** |
 
-## 📈 Hyperparameters
+## Hyperparameters
 
 Key hyperparameters (see `configs/default_config.json` for all parameters):
 
@@ -163,33 +163,31 @@ Key hyperparameters (see `configs/default_config.json` for all parameters):
 }
 ```
 
-## 🎓 Citation
+##  Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{das2026samm2d,
   title={SAMM2D: Scale-Aware Multi-Modal 2D Transformer for Intracranial Aneurysm Detection},
-  author={Das, Antara},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
+  author={Titiksha, Antara, Tak, Divyanshu},
+  
 }
 ```
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - RSNA for providing the Intracranial Aneurysm Detection dataset
-- Carnegie Mellon University for computational resources
 - The PyTorch team for the excellent deep learning framework
 
 ## 📧 Contact
 
-Antara Das - Carnegie Mellon University  
-Email: [your-email@andrew.cmu.edu]
+Antara Titikhsha - Carnegie Mellon University  
+Email: [antitikhsha@cmu.edu]
 
 ---
 
