@@ -184,6 +184,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - RSNA for providing the Intracranial Aneurysm Detection dataset
 - The PyTorch team for the excellent deep learning framework
 
+## Dataset
+Rudie, J., Calabrese, E., Ball, R., Chang, P., Chen, R., Colak, E., Correia de Verdier, M., Prevedelo, L., Richards, T., Saluja, R., Zaharchuk, G., Sho, J., & Vazirabad, M. (2025). RSNA intracranial aneurysm detection [Data set]. Kaggle. https://kaggle.com/competitions/rsna-2025-intracranial-aneurysm-detection 
+
 ## 📧 Contact
 
 Antara Titikhsha - Carnegie Mellon University  
