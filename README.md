@@ -12,7 +12,8 @@ Official PyTorch implementation of **SAMM2D**
 
 ##  Overview
 
-SAMM2D is a novel transformer-based architecture for detecting intracranial aneurysms in medical imaging. The model achieves **state-of-the-art performance** (AUC 0.78) while maintaining computational efficiency with only **18.8M parameters**.
+SAMM2D is a novel transformer-based architecture for detecting intracranial aneurysms in medical imaging. The model achieves **state-of-the-art performance** (AUC 0.78) while maintaining computational efficiency with only **18.8M parameters**. The pre-print is available [here.](https://arxiv.org/abs/2512.22185)
+
 
 ### Key Features
 
